@@ -1,6 +1,7 @@
 # AI Mood Textarea 🧠✨  
 A futuristic AI-powered **emotion detection text area** built with React and TypeScript.
-
+## Demo Video
+https://github.com/Khushi-bhaskar01/Khushi_ui_empire/blob/master/AI_empire.mp4
 ## 🌟 Features
 - 📝 **Real-time emotion detection** using AI  
 - 🎨 **Modern UI with glowing futuristic aesthetic**  
