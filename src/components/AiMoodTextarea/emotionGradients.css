@@ -1,0 +1,30 @@
+
+
+.bg-joy {
+  background: linear-gradient(to right, #fef08a, #fbcfe8); /* yellow-200 to pink-300 */
+}
+
+.bg-sadness {
+  background: linear-gradient(to right, #bfdbfe, #818cf8); /* blue-200 to indigo-400 */
+}
+
+.bg-anger {
+  background: linear-gradient(to right, #f87171, #dc2626); /* red-400 to red-600 */
+}
+
+.bg-fear {
+  background: linear-gradient(to right, #d8b4fe, #a78bfa); /* purple-300 to purple-500 */
+}
+
+.bg-calm {
+  background: linear-gradient(to right, #99f6e4, #86efac); /* teal-200 to green-300 */
+}
+
+.bg-neutral {
+  background: linear-gradient(to right, #e5e7eb, #d1d5db); /* gray-200 to gray-300 */
+}
+
+
+body.dark .bg-neutral {
+  background: linear-gradient(to right, #374151, #4b5563); /* dark: gray-700 to gray-600 */
+}

@@ -1,0 +1,116 @@
+/* Container styles */
+.mood-chart-container {
+  height: 120px; /* Increased height for better visibility */
+  width: 100%;
+  margin: 0.5rem 0;
+  position: relative;
+  background-color: white;
+  border-radius: 0.375rem;
+  overflow: hidden;
+  padding: 8px; /* Added padding */
+  box-sizing: border-box; /* Ensure padding is included in height */
+}
+
+.dark .mood-chart-container {
+  background-color: #1f2937;
+}
+
+/* Empty state styles */
+.mood-chart-empty {
+  height: 120px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.875rem;
+  color: #6b7280;
+}
+
+.dark .mood-chart-empty {
+  color: #9ca3af;
+}
+
+/* SVG styles */
+.mood-chart-svg {
+  width: calc(100% - 2px); /* Account for potential borders */
+  height: calc(100% - 2px);
+}
+
+/* Grid line styles */
+.grid-line {
+  stroke: #e5e7eb;
+  stroke-width: 1;
+  stroke-dasharray: 3;
+}
+
+.dark .grid-line {
+  stroke: #4b5563;
+}
+
+/* Emotion path styles */
+.emotion-path {
+  fill: none;
+  stroke: url(#gradientLine);
+  stroke-width: 3; /* Thicker line */
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+/* Data point styles */
+.data-point {
+  stroke: #fff;
+  stroke-width: 1.5;
+}
+
+.data-point-joy {
+  fill: #fbbf24;
+}
+
+.data-point-sadness {
+  fill: #60a5fa;
+}
+
+.data-point-anger {
+  fill: #f87171;
+}
+
+.data-point-fear {
+  fill: #a78bfa;
+}
+
+.data-point-calm {
+  fill: #34d399;
+}
+
+.data-point-neutral {
+  fill: #9ca3af;
+}
+
+/* Y-axis label styles */
+.y-axis-label {
+  position: absolute;
+  left: 12px;
+  font-size: 0.7rem;
+  color: #6b7280;
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 1px 4px;
+  border-radius: 3px;
+}
+
+.dark .y-axis-label {
+  color: #e5e7eb;
+  background-color: rgba(31, 41, 55, 0.7);
+}
+
+.y-axis-label-top {
+  top: 12px;
+}
+
+.y-axis-label-middle {
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.y-axis-label-bottom {
+  bottom: 12px;
+}
